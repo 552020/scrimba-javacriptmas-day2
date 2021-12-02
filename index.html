@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="snow.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Mountains+of+Christmas:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Scrimba | JavaSciptmas | Day 2</title>
+  </head>
+  <body>
+    <div id="second-body">
+      <div class="container" id="card">
+        <p id="greeting">🎅 Merry Christmas!</p>
+        <div class="radio-container">
+          <input
+            type="radio"
+            id="christmas"
+            name="theme"
+            value="christmas"
+            checked
+          />
+          <label for="christmas">Christmas 🎅</label>
+        </div>
+        <div class="radio-container">
+          <input type="radio" id="snow" name="theme" value="snow" />
+          <label for="snow">Snow ☃️</label>
+        </div>
+      </div>
+      <div class="container" id="overlay"></div>
+      <script type="text/javascript" src="./index.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+      <script type="text/javascript" src="./snow.js"></script>
+    </div>
+  </body>
+</html>
